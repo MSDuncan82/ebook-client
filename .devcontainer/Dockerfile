@@ -34,6 +34,7 @@ RUN apt-get update \
         jinja2 \
         aiofiles \
         dash \
+        pymongo \
     #
     # Clean up
     && apt-get autoremove -y \
@@ -43,4 +44,5 @@ RUN apt-get update \
 EXPOSE 8888
 EXPOSE 5432
 EXPOSE 5700
+EXPOSE 27020
 

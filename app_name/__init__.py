@@ -3,6 +3,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.wsgi import WSGIMiddleware
 from dash_app import app_dash
+
 # Now create your regular FASTAPI application
 
 app = FastAPI()
